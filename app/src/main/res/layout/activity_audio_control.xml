@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/black"
+    android:gravity="right"
+    android:orientation="horizontal" >
+    
+    <ImageView 
+        android:id="@+id/audio_background"
+        android:background="@drawable/bj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom = "@dimen/space_20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+    
+    <ImageView 
+        android:id="@+id/audio_control"
+        android:background="@drawable/audio_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft = "@dimen/space_20dp"
+        android:layout_marginBottom = "@dimen/space_20dp"
+        android:layout_alignLeft="@id/audio_background"
+        android:layout_alignBottom="@id/audio_background"/>
+    
+    
+    <ImageView 
+        android:id="@+id/audio_cd"
+        android:background="@drawable/cd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_marginRight = "@dimen/space_20dp"
+        android:layout_marginBottom = "@dimen/space_10dp"
+        android:layout_alignRight="@id/audio_background"
+        android:layout_alignBottom="@id/audio_background" />
+</RelativeLayout>

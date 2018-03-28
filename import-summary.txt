@@ -1,0 +1,106 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\NewAnny3D.iml
+* .idea\modules.xml
+* .idea\workspace.xml
+* AndroidManifest - 副本.xml
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:21.0.3
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* libs\android-extension-v4.jar => app\libs\android-extension-v4.jar
+* libs\armeabi-v7a\libBaiduMapSDK_base_v4_0_0.so => app\src\main\jniLibs\armeabi-v7a\libBaiduMapSDK_base_v4_0_0.so
+* libs\armeabi-v7a\libBaiduMapSDK_map_v4_0_0.so => app\src\main\jniLibs\armeabi-v7a\libBaiduMapSDK_map_v4_0_0.so
+* libs\armeabi-v7a\libBaiduMapSDK_util_v4_0_0.so => app\src\main\jniLibs\armeabi-v7a\libBaiduMapSDK_util_v4_0_0.so
+* libs\armeabi-v7a\libhci_asr.so => app\src\main\jniLibs\armeabi-v7a\libhci_asr.so
+* libs\armeabi-v7a\libhci_asr_cloud_recog.so => app\src\main\jniLibs\armeabi-v7a\libhci_asr_cloud_recog.so
+* libs\armeabi-v7a\libhci_asr_jni.so => app\src\main\jniLibs\armeabi-v7a\libhci_asr_jni.so
+* libs\armeabi-v7a\libhci_asr_local_ft_recog.so => app\src\main\jniLibs\armeabi-v7a\libhci_asr_local_ft_recog.so
+* libs\armeabi-v7a\libhci_asr_local_recog.so => app\src\main\jniLibs\armeabi-v7a\libhci_asr_local_recog.so
+* libs\armeabi-v7a\libhci_curl.so => app\src\main\jniLibs\armeabi-v7a\libhci_curl.so
+* libs\armeabi-v7a\libhci_sys.so => app\src\main\jniLibs\armeabi-v7a\libhci_sys.so
+* libs\armeabi-v7a\libhci_sys_jni.so => app\src\main\jniLibs\armeabi-v7a\libhci_sys_jni.so
+* libs\armeabi-v7a\libhci_tts.so => app\src\main\jniLibs\armeabi-v7a\libhci_tts.so
+* libs\armeabi-v7a\libhci_tts_cloud_synth.so => app\src\main\jniLibs\armeabi-v7a\libhci_tts_cloud_synth.so
+* libs\armeabi-v7a\libhci_tts_jni.so => app\src\main\jniLibs\armeabi-v7a\libhci_tts_jni.so
+* libs\armeabi-v7a\libhci_tts_local-v5_synth.so => app\src\main\jniLibs\armeabi-v7a\libhci_tts_local-v5_synth.so
+* libs\armeabi-v7a\libhci_tts_local_synth.so => app\src\main\jniLibs\armeabi-v7a\libhci_tts_local_synth.so
+* libs\armeabi-v7a\libhello-jni.so => app\src\main\jniLibs\armeabi-v7a\libhello-jni.so
+* libs\armeabi-v7a\libjtopus.so => app\src\main\jniLibs\armeabi-v7a\libjtopus.so
+* libs\armeabi-v7a\libjtspeex.so => app\src\main\jniLibs\armeabi-v7a\libjtspeex.so
+* libs\armeabi-v7a\liblocSDK7.so => app\src\main\jniLibs\armeabi-v7a\liblocSDK7.so
+* libs\armeabi-v7a\libmain.so => app\src\main\jniLibs\armeabi-v7a\libmain.so
+* libs\armeabi-v7a\libmono.so => app\src\main\jniLibs\armeabi-v7a\libmono.so
+* libs\armeabi-v7a\libunity.so => app\src\main\jniLibs\armeabi-v7a\libunity.so
+* libs\BaiduLBS_Android.jar => app\libs\BaiduLBS_Android.jar
+* libs\fastjson-1.1.40.jar => app\libs\fastjson-1.1.40.jar
+* libs\hcicloud-5.0.jar => app\libs\hcicloud-5.0.jar
+* libs\hcicloud_recorder-5.0.jar => app\libs\hcicloud_recorder-5.0.jar
+* libs\microlog4android-1.1.jar => app\libs\microlog4android-1.1.jar
+* libs\unity-classes.jar => app\libs\unity-classes.jar
+* libs\Volley.jar => app\libs\Volley.jar
+* libs\x86\libBaiduMapSDK_base_v4_0_0.so => app\src\main\jniLibs\x86\libBaiduMapSDK_base_v4_0_0.so
+* libs\x86\libBaiduMapSDK_map_v4_0_0.so => app\src\main\jniLibs\x86\libBaiduMapSDK_map_v4_0_0.so
+* libs\x86\libBaiduMapSDK_util_v4_0_0.so => app\src\main\jniLibs\x86\libBaiduMapSDK_util_v4_0_0.so
+* libs\x86\libhci_asr.so => app\src\main\jniLibs\x86\libhci_asr.so
+* libs\x86\libhci_asr_cloud_recog.so => app\src\main\jniLibs\x86\libhci_asr_cloud_recog.so
+* libs\x86\libhci_asr_jni.so => app\src\main\jniLibs\x86\libhci_asr_jni.so
+* libs\x86\libhci_asr_local_ft_recog.so => app\src\main\jniLibs\x86\libhci_asr_local_ft_recog.so
+* libs\x86\libhci_asr_local_recog.so => app\src\main\jniLibs\x86\libhci_asr_local_recog.so
+* libs\x86\libhci_curl.so => app\src\main\jniLibs\x86\libhci_curl.so
+* libs\x86\libhci_sys.so => app\src\main\jniLibs\x86\libhci_sys.so
+* libs\x86\libhci_sys_jni.so => app\src\main\jniLibs\x86\libhci_sys_jni.so
+* libs\x86\libhci_tts.so => app\src\main\jniLibs\x86\libhci_tts.so
+* libs\x86\libhci_tts_cloud_synth.so => app\src\main\jniLibs\x86\libhci_tts_cloud_synth.so
+* libs\x86\libhci_tts_jni.so => app\src\main\jniLibs\x86\libhci_tts_jni.so
+* libs\x86\libhci_tts_local-v5_synth.so => app\src\main\jniLibs\x86\libhci_tts_local-v5_synth.so
+* libs\x86\libhci_tts_local_synth.so => app\src\main\jniLibs\x86\libhci_tts_local_synth.so
+* libs\x86\libhello-jni.so => app\src\main\jniLibs\x86\libhello-jni.so
+* libs\x86\libjtopus.so => app\src\main\jniLibs\x86\libjtopus.so
+* libs\x86\libjtspeex.so => app\src\main\jniLibs\x86\libjtspeex.so
+* libs\x86\liblocSDK7.so => app\src\main\jniLibs\x86\liblocSDK7.so
+* libs\x86\libmain.so => app\src\main\jniLibs\x86\libmain.so
+* libs\x86\libmono.so => app\src\main\jniLibs\x86\libmono.so
+* libs\x86\libunity.so => app\src\main\jniLibs\x86\libunity.so
+* lint.xml => app\lint.xml
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

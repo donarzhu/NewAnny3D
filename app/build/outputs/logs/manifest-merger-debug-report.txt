@@ -1,0 +1,248 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:2:1-136:12
+INJECTED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:2:1-136:12
+INJECTED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:2:1-136:12
+INJECTED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:2:1-136:12
+MERGED from [com.android.support:support-v4:21.0.3] C:\Users\donar\.gradle\caches\transforms-1\files-1.1\support-v4-21.0.3.aar\d9dd40b48695e0eae8464ad9f245d996\AndroidManifest.xml:14:4-17:12
+INJECTED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:2:1-136:12
+INJECTED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:2:1-136:12
+INJECTED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:2:1-136:12
+	package
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:3:5-32
+		INJECTED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:6:5-30
+		INJECTED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:5:5-28
+		INJECTED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml
+	android:installLocation
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:4:5-45
+supports-screens
+ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:8:5-13:40
+	android:largeScreens
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:10:9-36
+	android:smallScreens
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:12:9-36
+	android:normalScreens
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:11:9-37
+	android:xlargeScreens
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:13:9-37
+	android:anyDensity
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:9:9-34
+uses-permission#android.permission.INTERNET
+ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:16:5-67
+	android:name
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:16:22-64
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:18:5-71
+	android:name
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:18:22-68
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:20:5-79
+	android:name
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:20:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:22:5-76
+	android:name
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:22:22-73
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:24:22-76
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:26:5-75
+	android:name
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:26:22-72
+uses-permission#android.permission.READ_CONTACTS
+ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:28:5-72
+	android:name
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:28:22-69
+uses-permission#android.permission.CAMERA
+ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:30:5-65
+	android:name
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:30:22-62
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:32:5-72
+	android:name
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:32:22-70
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:34:5-81
+	android:name
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:34:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:35:5-79
+	android:name
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:35:22-77
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:36:5-78
+	android:name
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:36:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:37:5-80
+	android:name
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:37:22-78
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:39:5-100
+	android:name
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:39:22-81
+uses-permission#android.permission.READ_LOGS
+ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:41:5-84
+	android:name
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:41:22-65
+application
+ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:43:5-116:19
+MERGED from [com.android.support:support-v4:21.0.3] C:\Users\donar\.gradle\caches\transforms-1\files-1.1\support-v4-21.0.3.aar\d9dd40b48695e0eae8464ad9f245d996\AndroidManifest.xml:16:5-19
+MERGED from [com.android.support:support-v4:21.0.3] C:\Users\donar\.gradle\caches\transforms-1\files-1.1\support-v4-21.0.3.aar\d9dd40b48695e0eae8464ad9f245d996\AndroidManifest.xml:16:5-19
+	android:label
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:49:9-41
+	android:debuggable
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:46:9-35
+	android:icon
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:47:9-43
+	android:banner
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:45:9-46
+	android:theme
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:50:9-50
+	android:isGame
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:48:9-30
+	android:name
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:44:9-60
+activity#com.aicyber.alter.UnityPlayerActivity
+ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:51:9-67:20
+	android:screenOrientation
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:56:13-51
+	android:label
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:54:13-45
+	android:launchMode
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:55:13-44
+	android:configChanges
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:53:13-170
+	android:name
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:52:13-65
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER+category:name:android.intent.category.LEANBACK_LAUNCHER
+ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:57:13-62:29
+action#android.intent.action.MAIN
+ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:58:17-69
+	android:name
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:58:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:60:17-77
+	android:name
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:60:27-74
+category#android.intent.category.LEANBACK_LAUNCHER
+ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:61:17-86
+	android:name
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:61:27-83
+meta-data#unityplayer.UnityActivity
+ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:64:13-66:40
+	android:value
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:66:17-37
+	android:name
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:65:17-57
+activity#com.aicyber.alter.WeatherActivity
+ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:69:9-78:20
+	android:screenOrientation
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:72:13-51
+	android:label
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:71:13-45
+	android:theme
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:73:13-71
+	android:name
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:70:13-44
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT
+ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:74:13-77:29
+action#android.intent.action.VIEW
+ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:75:17-69
+	android:name
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:75:25-66
+category#android.intent.category.DEFAULT
+ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:76:17-76
+	android:name
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:76:27-73
+activity#com.aicyber.alter.VideoActivity
+ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:80:9-90:20
+	android:screenOrientation
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:84:13-51
+	android:label
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:83:13-45
+	android:configChanges
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:82:13-170
+	android:theme
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:85:13-71
+	android:name
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:81:13-42
+activity#com.aicyber.alter.WebViewActivity
+ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:92:9-101:20
+	android:screenOrientation
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:95:13-51
+	android:label
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:94:13-45
+	android:theme
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:96:13-71
+	android:name
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:93:13-44
+service#com.baidu.location.f
+ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:103:9-110:19
+	android:process
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:106:13-38
+	android:enabled
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:105:13-35
+	android:name
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:104:13-48
+intent-filter#action:name:com.baidu.location.service_v2.2
+ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:107:13-109:29
+action#com.baidu.location.service_v2.2
+ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:108:17-74
+	android:name
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:108:25-71
+meta-data#com.baidu.lbsapi.API_KEY
+ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:112:9-115:21
+	android:value
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:114:13-53
+	android:name
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:113:13-52
+uses-sdk
+ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:118:5-120:41
+INJECTED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:118:5-120:41
+INJECTED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:118:5-120:41
+MERGED from [com.android.support:support-v4:21.0.3] C:\Users\donar\.gradle\caches\transforms-1\files-1.1\support-v4-21.0.3.aar\d9dd40b48695e0eae8464ad9f245d996\AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:support-v4:21.0.3] C:\Users\donar\.gradle\caches\transforms-1\files-1.1\support-v4-21.0.3.aar\d9dd40b48695e0eae8464ad9f245d996\AndroidManifest.xml:15:5-42
+INJECTED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:118:5-120:41
+INJECTED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:118:5-120:41
+	android:targetSdkVersion
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:120:9-38
+		INJECTED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:119:9-34
+		INJECTED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml
+uses-feature#0x00020000
+ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:122:5-54
+	android:glEsVersion
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:122:19-51
+uses-feature#android.hardware.touchscreen
+ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:126:5-128:36
+	android:required
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:128:9-33
+	android:name
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:127:9-52
+uses-feature#android.hardware.touchscreen.multitouch
+ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:129:5-131:36
+	android:required
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:131:9-33
+	android:name
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:130:9-63
+uses-feature#android.hardware.touchscreen.multitouch.distinct
+ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:132:5-134:36
+	android:required
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:134:9-33
+	android:name
+		ADDED from D:\Users\Administrator\AndroidStudioProjects\NewAnny3D\app\src\main\AndroidManifest.xml:133:9-72

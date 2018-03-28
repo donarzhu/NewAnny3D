@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:orientation="horizontal"
+    android:background="@color/black">
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="252dp"
+        android:background="@drawable/weather" 
+        android:layout_marginBottom="@dimen/space_20dp"
+        android:contentDescription="@string/app_name"/>
+    
+    <!-- 温度 -->
+    <TextView
+        android:id="@+id/temperature"
+        android:layout_below="@id/image_view"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="@dimen/space_20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textsize_35dp"
+        android:text="25°"
+        android:textColor="@color/white"/>
+    
+     <RelativeLayout 
+         android:id="@+id/location"
+         android:layout_below="@id/temperature"
+         android:layout_centerInParent="true"
+         android:layout_marginBottom="@dimen/space_20dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content">
+         
+         <TextView 
+             android:id="@+id/location_name"
+             android:layout_marginRight="@dimen/space_20dp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="天津"
+             android:textSize="@dimen/textsize_20dp"
+             android:textColor="@color/white"/>
+         
+         <TextView 
+             android:id="@+id/location_type"
+             android:layout_toRightOf="@id/location_name"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="特大暴雨"
+             android:textSize="@dimen/textsize_20dp"
+             android:textColor="@color/white"/>        
+     </RelativeLayout>
+     
+     <RelativeLayout android:id="@+id/humidity"
+         android:layout_below="@id/location"
+         android:layout_centerInParent="true"
+         android:layout_marginBottom="@dimen/space_20dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content">
+         
+         <TextView
+             android:id="@+id/humidity_name"
+             android:layout_marginRight="@dimen/space_20dp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="相对湿度:"
+             android:textColor="@color/white"
+             android:textSize="@dimen/textsize_20dp" />
+         
+         <TextView
+             android:id="@+id/humidity_value"
+             android:layout_toRightOf="@id/humidity_name"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="88.8%"
+             android:textColor="@color/white"
+             android:textSize="@dimen/textsize_20dp" />
+         
+     </RelativeLayout>
+     
+     <RelativeLayout android:id="@+id/wind"
+         android:layout_below="@id/humidity"
+         android:layout_centerInParent="true"
+         android:layout_marginBottom="@dimen/space_20dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content">
+         
+         <TextView
+             android:id="@+id/wind_name"
+             android:layout_marginRight="@dimen/space_20dp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="风力风向:"
+             android:textColor="@color/white"
+             android:textSize="@dimen/textsize_20dp" />
+         
+         <TextView
+             android:id="@+id/wind_value"
+             android:layout_toRightOf="@id/wind_name"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="东风18级"
+             android:textColor="@color/white"
+             android:textSize="@dimen/textsize_20dp" />    
+     </RelativeLayout>
+     
+     <RelativeLayout android:id="@+id/air"        
+         android:layout_below="@id/wind"
+         android:layout_centerInParent="true"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content">
+         
+         <TextView
+             android:id="@+id/air_name"
+             android:layout_marginRight="@dimen/space_20dp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="空气质量:"
+             android:textColor="@color/white"
+             android:textSize="@dimen/textsize_20dp" />
+         
+         <TextView
+             android:id="@+id/air_value"
+             android:layout_toRightOf="@id/air_name"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="重度污染"
+             android:textColor="@color/white"
+             android:textSize="@dimen/textsize_20dp" />
+         
+     </RelativeLayout>
+     
+     
+    
+    <!--  
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageview"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+        
+        <TextView
+        android:id="@+id/temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:centerHorizontal="true"
+        android:textSize="20dp"
+        android:text="25°"/>
+        
+        <TextView
+        android:id="@+id/wind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="风力:100级"/>
+        
+        <TextView
+        android:id="@+id/wind1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="风力:100级"/>
+        
+        <TextView
+        android:id="@+id/wind2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="风力:100级"/>
+        
+        <TextView
+        android:id="@+id/wind3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="风力:100级"/>
+        
+        
+        <TextView
+        android:id="@+id/wind4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="风力:100级"/>
+        
+    </LinearLayout>-->
+</RelativeLayout>

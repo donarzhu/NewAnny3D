@@ -1,0 +1,77 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Users\\Administrator\\AndroidStudioProjects\\NewAnny3D\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "D:\\Users\\Administrator\\AndroidStudioProjects\\NewAnny3D\\app\\src\\main\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "6,5,3,4,8,9",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "203,160,74,117,264,310",
+                        "endColumns": "40,41,41,41,44,44",
+                        "endOffsets": "239,197,111,154,304,350"
+                    },
+                    "to": {
+                        "startLines": "5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "175,216,258,300,342,387",
+                        "endColumns": "40,41,41,41,44,44",
+                        "endOffsets": "211,253,295,337,382,427"
+                    }
+                },
+                {
+                    "source": "D:\\Users\\Administrator\\AndroidStudioProjects\\NewAnny3D\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "2",
+                        "startOffsets": "55",
+                        "endColumns": "44",
+                        "endOffsets": "97"
+                    },
+                    "to": {
+                        "startLines": "11",
+                        "startColumns": "4",
+                        "startOffsets": "432",
+                        "endColumns": "46",
+                        "endOffsets": "474"
+                    }
+                },
+                {
+                    "source": "D:\\Users\\Administrator\\AndroidStudioProjects\\NewAnny3D\\app\\src\\main\\res\\values\\color.xml",
+                    "from": {
+                        "startLines": "4,3,2",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "163,110,57",
+                        "endColumns": "39,39,39",
+                        "endOffsets": "198,145,92"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,95,135",
+                        "endColumns": "39,39,39",
+                        "endOffsets": "90,130,170"
+                    }
+                },
+                {
+                    "source": "D:\\Users\\Administrator\\AndroidStudioProjects\\NewAnny3D\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "0",
+                        "startOffsets": "53",
+                        "endColumns": "92",
+                        "endOffsets": "145"
+                    },
+                    "to": {
+                        "startLines": "12",
+                        "startColumns": "4",
+                        "startOffsets": "479",
+                        "endColumns": "89",
+                        "endOffsets": "564"
+                    }
+                }
+            ]
+        }
+    ]
+}
